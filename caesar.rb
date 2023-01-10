@@ -27,7 +27,9 @@ def caesar_cipher(string, shift_num)
   p new_string_array.join
 end 
 
-caesar_cipher("This is encrypted", 1)
+message = "This is encrypted, albiet poorly"
+
+caesar_cipher(message, 1)
 
 
 # a - 97
